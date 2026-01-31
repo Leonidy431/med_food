@@ -1,12 +1,15 @@
 FROM python:3.11-slim
 
 # ============================================================================
-# DietaryApp Telegram Bot Dockerfile для Railway
+# MedMarket Bot - Dockerfile для Railway
 # ============================================================================
-# Production-ready контейнер для Telegram бота на Railway
+# Production-ready контейнер для Telegram бота средиземноморской диеты.
 #
-# Build: docker build -t dietaryapp-bot .
-# Run: docker run --env-file .env dietaryapp-bot
+# Build: docker build -t medmarket-bot .
+# Run: docker run --env-file .env medmarket-bot
+#
+# Author: MedMarket Team
+# Version: 1.0.0
 # ============================================================================
 
 # Устанавливаем рабочую директорию
